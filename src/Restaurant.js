@@ -1,4 +1,5 @@
-const restaurants = {
+
+export const Restaurants = {
     "mediterranean": {
         "Mediterranean Grill": [
             "hummus", "tabouli", "dolmas"
@@ -33,3 +34,5 @@ const restaurants = {
         ]
     }
 }
+
+export default Restaurants;
