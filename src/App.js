@@ -40,6 +40,7 @@ class App extends React.Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1>Restaurant App</h1>
           <RestaurantType handleClick={this._setStateType}/>
+          <RestaurantList />
         </header>
       </div>
     );
@@ -53,6 +54,22 @@ class App extends React.Component {
       console.log(type);
     })
   }
+
+  _setStateList = (restaurant) => {
+    this.setState({
+      restaurant
+    }, () => {
+      console.log(restaurant);
+    })
+  }
+
+
+
+
+
+
 }
+
+
 
 export default App;

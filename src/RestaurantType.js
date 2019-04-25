@@ -2,7 +2,6 @@ import React from 'react';
 
 // Import an Object from Restaurant.js
 import {Restaurants} from './Restaurant';
-import RestaurantList from './RestaurantList';
 
 
 function displayRest(e) {
@@ -29,7 +28,6 @@ function RestaurantType(props) {
         <div>
             <p>Restaurant Types (Click for Resturants):</p>
             {displayType}
-            {/* <RestaurantList type={this.displayRest} /> */}
         </div>
     );
 }
